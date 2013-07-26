@@ -66,6 +66,14 @@ helper functions
 	clear: both;
 }
 
+.divider{
+	width: 330px;
+	height: 1px;
+	margin: 0 auto;
+	background-color: $text;
+	margin-top: 40px;
+}
+
 
 /*
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -96,7 +104,8 @@ typography
 }
 
 h1,h2,h3, small, ul{
-	font-family: 'bariol_regularregular'
+	font-family: 'bariol_regularregular';
+	font-weight: normal;
 }
 
 h1{
@@ -124,14 +133,17 @@ header{
 	width: 100%;
 
 
+
 	h1{
 		padding-top: 130px;
+		padding-left: 30px;
 	}
 }
 
 .wrap{
 	max-width: 1200px;
 	margin: 0 auto;
+	position: relative;
 }
 
 ul{
@@ -140,7 +152,7 @@ ul{
 }
 
 ul li{
-	padding-top: 30px;
+	padding-top: 10px;
 	float: left;
 	padding-left: 40px;
 }
@@ -155,6 +167,11 @@ ul a{
 	color: #fff;
 	text-decoration: none;
 	font-size: 46px;
+	transition: all .2s;  
+}
+
+ul a:hover{
+	border-top: 4px solid white;
 }
 
 small{
@@ -162,3 +179,83 @@ small{
 	position: relative;
 	top: -35px;
 }
+
+.pointer{
+	background: url(../img/pointer.png);
+	height: 51px;
+	width: 102px;
+	position: absolute;
+	top: 225px;
+	left: 160px;
+}
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////////
+main
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.main{
+	max-width: 1200px;
+	background-color: blue;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+
+
+.titleBlock{
+	width: 430px;
+	float: left;
+	height: 300px;
+	background-color: grey;
+
+}
+
+.recentImage{
+	margin-left: 430px;
+	width: 770px;
+	height: 300px;
+	background-color: green;
+}
+
+
+
+/*
+.titleBlock{
+	width: 430px;
+	background-color: $secondary;
+	height: 340px;
+}
+
+.newPostTitle{
+	padding-top: 60px;
+	position: relative;
+	font-size: 30px;
+	color: $text;
+	text-align: center;
+	font-weight: normal;
+}
+
+.newExerpt{
+	padding-top: 40px;
+	width: 350px;
+	margin: 0 auto;
+	font-size: 17px;
+	font-family: 'bariol_regularregular';
+	color: $text;
+}
+
+.recentImage{
+	width: 600px;
+	overflow: hidden;
+	float: left;
+}
+
+.recentImage img{
+	width: 100%;
+}
+
+*/
+
