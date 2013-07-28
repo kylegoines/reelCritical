@@ -234,3 +234,11 @@ small {
   text-align: center;
   font-size: 25px;
   margin-top: 20px; }
+
+.info {
+  margin-bottom: 10px;
+  height: 530px;
+  float: left;
+  width: 760px;
+  background-color: #ff6161;
+  color: white; }
