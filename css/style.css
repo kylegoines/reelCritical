@@ -59,7 +59,7 @@ table {
 @font-face {
   font-family: 'bariol_regularregular';
   src: url("../fonts/bariol_regular-webfont.eot");
-  src: url("../fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bariol_regular-webfont.woff") format("woff"), url("../fonts/bariol_regular-webfont.ttf") format("truetype"), url("../fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg");
+  src: url("../fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg"), url("../fonts/bariol_regular-webfont.woff") format("woff"), url("../fonts/bariol_regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -235,10 +235,35 @@ small {
   font-size: 25px;
   margin-top: 20px; }
 
-.info {
+.about {
   margin-bottom: 10px;
   height: 530px;
   float: left;
   width: 760px;
   background-color: #ff6161;
   color: white; }
+  .about .divider {
+    background-color: #fff; }
+  .about .leftArrow {
+    background: url(../img/whiteArrow.png);
+    margin-top: 130px;
+    margin-bottom: 130px; }
+  .about p {
+    padding-top: 30px;
+    line-height: 20px;
+    width: 340px;
+    font-size: 17px;
+    font-family: 'bariol_regularregular';
+    margin: 0 auto; }
+
+.info {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 36px; }
+
+.aboutPic {
+  background-color: #bada55;
+  height: 530px;
+  overflow: hidden; }
+  .aboutPic img {
+    width: 100%; }
