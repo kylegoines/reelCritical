@@ -85,6 +85,17 @@ globals
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
 
+ html,body{
+ 	height: 100%;
+ }
+
+ .main{
+  min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin:  0 auto -90px;
+ }
+
 
 /*
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -473,7 +484,7 @@ single post styles
 }
 
 .singleContent{
-
+	//background-color: red;
 	margin-right: 20px;
 	float: left;
 	margin-top: 50px;
@@ -481,6 +492,12 @@ single post styles
 	font-size: 20px;
 	line-height: 23px;
 	color: $text;
+	p{
+		padding-top: 20px;
+	}
+	p:first-of-type{
+		padding-top: 0px;
+	}
 
 	a{
 		text-decoration: none;
@@ -498,4 +515,91 @@ single post styles
 		border: 5px solid #e3e3e3;
 
 	}
+}
+
+.sideBar{
+	width: 480px;
+	//background-color: green;
+	float: left;
+	margin-top: 50px;
+	ul li{
+		padding-top: 20px;
+		margin-left: 120px;
+	}
+
+	ul li:hover:before{
+		content: "";
+		position: absolute;
+		
+		margin-left: -30px;
+		background: url(../img/leftArrow.png);
+		height: 18px;
+		width: 24px;
+	}
+
+/*
+	ul li:after{
+		content: "";
+		position: absolute;
+		display: block;
+		width: 330px;
+		height: 1px;
+		background-color: $text;
+		margin-top: 40px;
+		margin: 0 auto;
+	}
+
+	*/
+
+	ul li:last-of-type{
+		padding-bottom: 30px;
+	}
+
+	ul a{
+		text-decoration: none;
+		color: $text;
+		font-size: 20px;
+		
+	}
+
+}
+
+.sidebarTitleBlock{
+	width: 340px;
+	background-color: $secondary;
+	margin: 0 auto;
+	height: 90px;
+	h3{
+		position: relative;
+		top: 34px;
+		color: $text;
+		font-size: 24px;
+		text-align: center;
+	}
+}
+
+
+
+footer{
+
+	
+}
+
+footer{
+    position:absolute;
+    margin-top: 40px;
+    height:100px;;
+    width:100%;
+    background:#999;
+	background-color: $primary;
+	h1{
+		position: relative;
+		top: 15px;
+		right: 10px;
+		float: right;
+	}
+}
+
+.footer, .push{
+	height: 90px
 }
