@@ -401,6 +401,32 @@ small {
     font-size: 24px;
     text-align: center; }
 
+.sidebarAbout {
+  width: 340px;
+  background-color: #ff6161;
+  margin: 0 auto;
+  height: 110px; }
+  .sidebarAbout h3 {
+    position: relative;
+    top: 44px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center; }
+
+.sidebarAboutInfo {
+  width: 340px;
+  margin: 0 auto;
+  padding: 30px 0 70px 0;
+  font-family: 'bariol_regularregular';
+  line-height: 25px;
+  color: #514f4b;
+  font-size: 20px; }
+  .sidebarAboutInfo a {
+    text-decoration: none;
+    color: #ff6161; }
+  .sidebarAboutInfo a:hover {
+    text-decoration: underline; }
+
 footer {
   position: absolute;
   margin-top: 40px;

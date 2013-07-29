@@ -578,12 +578,39 @@ single post styles
 	}
 }
 
-
-
-footer{
-
-	
+.sidebarAbout{
+	width: 340px;
+	background-color: $primary;
+	margin: 0 auto;
+	height: 110px;
+	h3{
+		position: relative;
+		top: 44px;
+		color: #fff;
+		font-size: 24px;
+		text-align: center;
+	}
 }
+
+.sidebarAboutInfo{
+	width: 340px;
+	margin: 0 auto;
+	padding: 30px 0 70px 0 ;
+	font-family: 'bariol_regularregular';
+	line-height: 25px;
+	color: $text;
+	font-size: 20px;
+	a{
+		text-decoration: none;
+		color: $primary;
+
+	}
+
+	a:hover{
+		text-decoration: underline;
+	}
+}
+
 
 footer{
     position:absolute;
