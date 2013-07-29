@@ -63,7 +63,7 @@ table {
   font-weight: normal;
   font-style: normal; }
 
-h1, h2, h3, small, ul {
+h1, h2, h3, small, ul, .singleContent {
   font-family: 'bariol_regularregular';
   font-weight: normal; }
 
@@ -89,11 +89,11 @@ header {
   margin: 0 auto;
   position: relative; }
 
-ul {
+header ul {
   display: block;
   float: right; }
 
-ul li {
+header ul li {
   padding-top: 10px;
   float: left;
   padding-left: 40px; }
@@ -103,7 +103,7 @@ ul li:hover{
 	border-top: 10px solid #fff;
 }
 */
-ul a {
+header ul a {
   color: #fff;
   text-decoration: none;
   font-size: 46px;
@@ -113,7 +113,7 @@ ul a {
   -ms-transition: all 0.4s;
   transition: all 0.4s; }
 
-ul a:hover {
+header ul a:hover {
   border-top: 7px solid white;
   position: relative;
   top: 5px; }
@@ -267,3 +267,77 @@ small {
   overflow: hidden; }
   .aboutPic img {
     width: 100%; }
+
+.heroImage {
+  width: 100%;
+  height: 400px;
+  background-color: #bada55;
+  overflow: hidden; }
+
+.heroImage img {
+  width: 100%; }
+
+.singleTitle {
+  text-align: center;
+  padding: 30px 0;
+  width: 330px;
+  font-size: 26px;
+  display: block;
+  background-color: #fcf1d0;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  font-size: 26px;
+  font-family: 'bariol_regularregular';
+  color: #514f4b; }
+
+.downArrow {
+  background: url(../img/downArrow.png);
+  width: 18px;
+  height: 24px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 0 auto;
+  position: relative;
+  top: -20px; }
+
+.singleTitle:hover ~ .downArrow {
+  position: relative;
+  top: -15px; }
+
+.singleCallout {
+  font-size: 24px;
+  width: 620px;
+  color: #514f4b;
+  margin: 0 auto; }
+
+.singleCallout li {
+  margin-top: 10px; }
+
+.singleCallout li:before {
+  content: ">";
+  color: #ff6161;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -2px; }
+
+.singleContent {
+  margin-right: 20px;
+  float: left;
+  margin-top: 50px;
+  width: 700px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #514f4b; }
+  .singleContent a {
+    text-decoration: none;
+    color: #ff6161; }
+  .singleContent a:hover {
+    text-decoration: underline; }
+  .singleContent img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #e3e3e3; }
