@@ -92,6 +92,9 @@ header {
   header h1 {
     padding-top: 130px;
     padding-left: 50px; }
+  header h1 a {
+    color: #fff;
+    text-decoration: none; }
 
 .wrap {
   width: 1200px;
@@ -227,9 +230,13 @@ small {
   -ms-transition: all 0.5s;
   transition: all 0.5s; }
 
-.post:hover > .upArrow {
+a:hover .upArrow {
   position: relative;
   top: -5px; }
+
+.post a, .newPost a {
+  color: #514f4b;
+  text-decoration: none; }
 
 .postExerpt {
   padding-top: 30px;
@@ -354,6 +361,28 @@ small {
     display: block;
     margin: 20px auto;
     border: 5px solid #e3e3e3; }
+
+.comments {
+  padding-top: 30px; }
+  .comments h3 {
+    font-size: 28px; }
+
+.comment {
+  margin: 20px 0 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b6b6b6; }
+  .comment time {
+    font-size: 14px; }
+
+.commentAuthor {
+  font-size: 22px;
+  color: #ff6161; }
+
+.commentBox {
+  margin-top: 10px;
+  border-left: 10px solid #ff6161; }
+  .commentBox p {
+    padding-left: 20px; }
 
 .sideBar {
   width: 480px;
