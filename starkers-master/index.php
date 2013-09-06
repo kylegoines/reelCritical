@@ -77,20 +77,21 @@
 
             <div class="about">
                 <div class="info">
-                    <h3>hi im danielle</h3>
+                    <h3>Hi! I'm Danielle</h3>
                 </div>
                 <div class="leftArrow"></div>
                 <div class="divider"></div>
-                <ul class="social">
-                    <li><a class="linkedin" href="http://www.linkedin.com/">linedin</a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/">facebook</a></li>
-                    <li><a class="twitter" href="https://twitter.com/">twitter</a></li>
-                </ul>
+
                 <p>
-                   Whether you call them movies, films, or pictures–I love them all. I love to watch them, analyze them, write them, and talk about them with close friends and complete strangers. 
-Each movie holds a bit of truth, whether profound or incidental. In this blog, I’ll explore some of those truths and try to offer a fresh perspective on old and new movies, alike.<br><br>
+Whether you call them movies, films, or pictures -- I love them all. I love to watch them, analyze them, write them, and talk about them with close friends and complete strangers. 
+Each movie holds a bit of truth, whether profound or incidental. In this blog, I’ll explore some of those truths and offer my opinions on the movies I watch, old and new.
 This blog will contain criticism, but I want to be clear: I respect the people who make movies, even if I don’t particularly like the movies they make. I developed this perspective at Emerson College where I graduated with a degree in Writing for Film & TV.
                 </p>
+                <ul class="social">
+                    <li><a class="linkedin" href="http://www.linkedin.com/profile/view?id=149493508&authType=NAME_SEARCH&authToken=JUsQ&locale=en_US&srchid=2218471051378487183085&srchindex=2&srchtotal=175&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2218471051378487183085%2CVSRPtargetId%3A149493508%2CVSRPcmpt%3Aprimary">linedin</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/danielle.dunn.5891">facebook</a></li>
+                    <li><a class="twitter" href="https://twitter.com/daniemdunn">twitter</a></li>
+                </ul>
 
 
             </div><!--about-->

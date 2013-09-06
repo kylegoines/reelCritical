@@ -1,13 +1,13 @@
             <div class="sideBar">
                 <div class="sidebarAbout">
-                        <h3>hi im danielle</h3>
+                        <h3>Hi! I'm Danielle</h3>
                 </div>
                 <p class="sidebarAboutInfo">
                    Reelcritical is my personal review blog. As the title suggests, I enjoy movies and puns. Here, I’ll publish my thoughts on both, but mostly movies. I’d love for you to do the same.
                 </p>
                 <div class="reviews">
                     <div class="sidebarTitleBlock">
-                        <h3>Recent Reviews</h3>
+                        <h3>Recent Films</h3>
                     </div>
                     <ul>
                         <?php
@@ -23,7 +23,7 @@
 
                 <div class="thoughts">
                     <div class="sidebarTitleBlock">
-                        <h3>Recent Thoughts</h3>
+                        <h3>Recent Brain Babies</h3>
                     </div>
                     <ul>
 

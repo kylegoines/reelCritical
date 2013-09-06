@@ -91,8 +91,7 @@ html, body {
 
 @font-face {
   font-family: 'bariol_regularregular';
-  src: url("fonts/bariol_regular-webfont.eot");
-  src: url("fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg"), url("fonts/bariol_regular-webfont.woff") format("woff"), url("fonts/bariol_regular-webfont.ttf") format("truetype");
+  src: url("fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg"), url("fonts/bariol_regular-webfont.woff") format("woff"), url("fonts/bariol_regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -294,8 +293,9 @@ a:hover .upArrow {
     margin-top: 50px;
     margin-bottom: 50px; }
   .about p {
-    padding-top: 30px;
+    padding-top: 10px;
     line-height: 20px;
+    padding-bottom: 20px;
     width: 430px;
     font-size: 17px;
     font-family: 'bariol_regularregular';
@@ -551,7 +551,7 @@ font-size: 18px;
 }
 
 .fbPush{
-  height: 40px;
+  height: 20px;
 }
 
 .social{
@@ -593,4 +593,8 @@ a.twitter{
   background: url(img/twitter.png);
   height: 30px;
   width: 30px;
+}
+
+.fbFloat{
+  float: left; padding-right: 20px;
 }

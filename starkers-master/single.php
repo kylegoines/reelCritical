@@ -27,12 +27,11 @@
             	
             	<?php the_content() ?>
 
-<div class="fbPush"></div>
-<!--<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Freelcritical.com/&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:80px;" allowTransparency="true"></iframe><style>.fbook{position: absolute; font-color:#ddd; top:-1668px; font-size:10;}</style></style> <a href="http://www.videobeamer24.de" class="fbook">http://www.videobeamer24.de</a> <style>.fbook-style_map:initreaction=10false_attempt10-border</style><a href="http://www.profistaubsauger.de" class="fbook">http://www.profistaubsauger.de</a><style>closemap"init"if=fb_connect-start="25"check_bandwith</style>-->
-
+<div class="fbPush"></div><iframe class="fbFloat" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Freelcritical.com/&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:80px;" allowTransparency="true"></iframe><style>.fbook{position: absolute; font-color:#ddd; top:-1668px; font-size:10;}</style></style> <a href="http://www.videobeamer24.de" class="fbook">http://www.videobeamer24.de</a> <style>.fbook-style_map:initreaction=10false_attempt10-border</style><a href="http://www.profistaubsauger.de" class="fbook">http://www.profistaubsauger.de</a><style>closemap"init"if=fb_connect-start="25"check_bandwith</style>
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=<?php the_permalink(); ?>&via=xtapit&text=<?php the_title(); ?>" style="width:115px; height:21px;"></iframe><br><br>
 
     <div class="comments">
-    	<h3>Commnets</h3>
+    	<h3>Comments</h3>
 	
 	</div>
 
