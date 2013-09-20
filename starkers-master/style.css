@@ -283,17 +283,18 @@ a:hover .upArrow {
   height: 530px;
   float: left;
   width: 760px;
-  background-color: #ff6161;
+  background-color: #fcf1d0;
   color: white; }
   .about .divider {
-    background-color: #fff;
+    background-color: #514f4b;
     display: none;
     margin: 0 auto; }
   .about .leftArrow {
-    background: url(img/whiteArrow.png);
+    background: url(img/leftArrow.png);
     margin-top: 50px;
     margin-bottom: 50px; }
   .about p {
+    color: #514f4b;
     padding-top: 10px;
     line-height: 20px;
     padding-bottom: 20px;
@@ -303,6 +304,7 @@ a:hover .upArrow {
     margin: 0 auto; }
 
 .info {
+  color: #514f4b;
   margin-top: 60px;
   text-align: center;
   font-size: 36px; }
